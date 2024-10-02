@@ -1,0 +1,72 @@
+ion-input {
+    border: 0.5px solid;
+    border-radius: 20px;
+    margin-bottom: 19px;
+    margin-top: 5px;
+    padding-left: 25px; /* Aumenta solo el padding izquierdo */
+    padding-right: 10px; /* Mantén el derecho más pequeño si es necesario */
+    border-color: var(--ion-color-orange);
+    color: #2e2c2c;
+    background-color: white;
+}
+
+
+.question-content {
+    background-color: #f9f9f9;
+    padding: 16px;
+  }
+  
+  .question {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #f7f1f1;
+  }
+  
+  
+  .answer-form {
+    margin-top: 20px;
+  }
+  
+  .answer ion-input {
+    font-size: 1.2em;
+  }
+  
+  ion-button {
+    transition: background-color 0.3s ease;
+  }
+  ion-content {
+    --padding-bottom: env(safe-area-inset-bottom);
+}
+
+  ion-button:hover {
+    background-color: #ffcc00; /* Color al pasar el mouse */
+  }
+  
+  ion-tabs {
+    background-color: #fff; /* Fondo blanco para las pestañas */
+  }
+  .img {
+    background-image: url('../../assets/img/TRIVIA233.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad */
+  }
+  .custom-button {
+    border: 2px solid #4caf50; /* Cambia el color del borde */
+    border-radius: 7px; /* Opcional: redondea los bordes */
+    background-color: transparent; /* Opcional: fondo transparente para ver el borde */
+    color: #4caf50; /* Cambia el color del texto si es necesario */
+  }
+  
+  .custom-button:hover {
+    background-color: #4caf50; /* Cambia el fondo al pasar el mouse */
+    color: white; /* Cambia el color del texto al pasar el mouse */
+  }
+  ion-footer {
+    background-color: #fff; /* Asegúrate de que el color de fondo sea visible */
+    z-index: 10; /* Asegúrate de que esté en la parte superior */
+  }
+  
